@@ -138,7 +138,7 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    public float health = 10f;
+    public float health = 100f;
 
     public void Defeated()
     {

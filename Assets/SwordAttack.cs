@@ -42,6 +42,8 @@ public class SwordAttack : MonoBehaviour
             if(enemy != null)
             {
                 enemy.Health -= damage;
+                //pause enemy movement or push back
+                enemy.Damaged();
             }
         }
     }

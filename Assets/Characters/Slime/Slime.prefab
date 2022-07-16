@@ -139,7 +139,13 @@ MonoBehaviour:
   damage: 3
   target: {fileID: 0}
   slimeAttack: {fileID: 1983403932901535171}
-  health: 1
+  point1: {x: 0, y: 0, z: 0}
+  point2: {x: 0, y: 0, z: 0}
+  point3: {x: 0, y: 0, z: 0}
+  point1Touched: 0
+  point2Touched: 0
+  point3Touched: 0
+  health: 10
 --- !u!95 &7700405587767606314
 Animator:
   serializedVersion: 3

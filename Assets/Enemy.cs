@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
 
     Animator animator;
+    Rigidbody2D rb;
     public float damage = 3f;
     public GameObject target;
     private float step = 0.2f;
@@ -15,19 +16,15 @@ public class Enemy : MonoBehaviour
     private Vector3 startingPosition;
     private float patrolDistance = 1.3f;
 
-    [SerializeField]
     private Vector3 point1;
-    [SerializeField]
     private Vector3 point2;
-    [SerializeField]
     private Vector3 point3;
 
-    [SerializeField]
     bool point1Touched = false;
-    [SerializeField]
     bool point2Touched = false;
-    [SerializeField]
     bool point3Touched = false;
+
+    bool canMove = true;
 
     public float Health
     {
@@ -50,6 +47,7 @@ public class Enemy : MonoBehaviour
     private void Start()
     {
         animator = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
         startingPosition = transform.position;
         point1 = new Vector3(Random.Range(startingPosition.x - patrolDistance, startingPosition.x + patrolDistance), Random.Range(startingPosition.y - patrolDistance, startingPosition.y + patrolDistance), 0);
         point2 = new Vector3(Random.Range(startingPosition.x - patrolDistance, startingPosition.x + patrolDistance), Random.Range(startingPosition.y - patrolDistance, startingPosition.y + patrolDistance), 0);
@@ -95,7 +93,11 @@ public class Enemy : MonoBehaviour
         if (playerInRange)
         {
             //move towards player
-            transform.position = Vector2.MoveTowards(transform.position, target.transform.position + offset, step * Time.deltaTime);
+            if (canMove)
+            {
+                transform.position = Vector2.MoveTowards(transform.position, target.transform.position + offset, step * Time.deltaTime);
+            }
+            
         }
         else
         {
@@ -108,8 +110,10 @@ public class Enemy : MonoBehaviour
     {
         //start animation
         animator.SetBool("Moving", true);
+        canMove = true;
         //set player is in range
         playerInRange = true;
+        animator.SetBool("Damaged", false);
     }
 
     public void StopAttack()
@@ -120,6 +124,13 @@ public class Enemy : MonoBehaviour
         playerInRange = false;
     }
 
+
+   public void Damaged()
+    {
+        canMove = false;
+        animator.SetTrigger("Damaged");
+        transform.position = transform.position;
+    }
     
     private void Patrol()
     {
