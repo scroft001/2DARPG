@@ -192,8 +192,10 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  collisionOffset: 0.05
+  collisionOffset: 0.01
+  healthBar: {fileID: 0}
   swordAttack: {fileID: 5025210226412661128}
+  health: 100
 --- !u!95 &6035457927755839770
 Animator:
   serializedVersion: 3

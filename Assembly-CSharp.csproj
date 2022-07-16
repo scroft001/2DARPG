@@ -51,6 +51,7 @@
      <Compile Include="Assets\SlimeAttack.cs" />
      <Compile Include="Assets\PlayerController.cs" />
      <Compile Include="Assets\Enemy.cs" />
+     <Compile Include="Assets\HealthBar.cs" />
  <Reference Include="UnityEngine">
  <HintPath>/Applications/Unity/Hub/Editor/2020.3.9f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
