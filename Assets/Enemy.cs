@@ -26,6 +26,8 @@ public class Enemy : MonoBehaviour
 
     bool canMove = true;
 
+    public Flash flash;
+
     public float Health
     {
         set
@@ -84,6 +86,8 @@ public class Enemy : MonoBehaviour
         if (target != null)
         {
             target.GetComponent<PlayerController>().Health -= damage;
+            //Flash damage image
+            flash.playerDamaged = true;
             print("Damaged Player " + target.GetComponent<PlayerController>().Health);
         }
     }
