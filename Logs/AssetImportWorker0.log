@@ -639,3 +639,104 @@ Received Import Request.
 Start importing Assets/Characters/Slime/Slime.prefab using Guid(368138e3792bb4c96b89aa3a858b925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cefb4c26d351569fe4787947b477ac') in 0.032731 seconds
   Import took 0.038612 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001208 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.569 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2251 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.9 MB.
+System memory in use after: 185.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2818.
+Total: 2.783853 ms (FindLiveObjects: 0.342857 ms CreateObjectMapping: 0.111547 ms MarkObjects: 2.214332 ms  DeleteObjects: 0.114250 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 400.950519 seconds.
+  path: Assets/Characters/Slime/Slime.prefab
+  artifactKey: Guid(368138e3792bb4c96b89aa3a858b925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Slime/Slime.prefab using Guid(368138e3792bb4c96b89aa3a858b925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed0b80881bea63ca7d291cf73ffe713f') in 0.082352 seconds
+  Import took 0.088299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 114.176579 seconds.
+  path: Assets/Art/objects/chest_01.png
+  artifactKey: Guid(e0bef8c36263d4d09889ee28333da323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/objects/chest_01.png using Guid(e0bef8c36263d4d09889ee28333da323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b347e7f2bede6b3dddd8cbe24e2fc699') in 0.048019 seconds
+  Import took 0.052675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 75.553626 seconds.
+  path: Assets/Art/objects/chest_01.png
+  artifactKey: Guid(e0bef8c36263d4d09889ee28333da323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/objects/chest_01.png using Guid(e0bef8c36263d4d09889ee28333da323) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4ed0be69eb7451cdf45b6147b8bdde3') in 0.030304 seconds
+  Import took 0.035689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.870270 seconds.
+  path: Assets/Loot
+  artifactKey: Guid(1dc61714dae194a9ca49d9cc2bda1214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loot using Guid(1dc61714dae194a9ca49d9cc2bda1214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d6d0100f9187f9d80e93a004f4b548b') in 0.001662 seconds
+  Import took 0.006533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.671503 seconds.
+  path: Assets/Loot/LootChest.prefab
+  artifactKey: Guid(5c63ac50b7fa243f892524fdd54d6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loot/LootChest.prefab using Guid(5c63ac50b7fa243f892524fdd54d6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018c28a02ac86fe2560594d68621c823') in 0.013659 seconds
+  Import took 0.017910 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007133 seconds.
+  path: Assets/Loot/LootChest.prefab
+  artifactKey: Guid(5c63ac50b7fa243f892524fdd54d6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loot/LootChest.prefab using Guid(5c63ac50b7fa243f892524fdd54d6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '018c28a02ac86fe2560594d68621c823') in 0.011659 seconds
+  Import took 0.015921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.550911 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b342d4bb29362cc408806ffa80a9d19') in 0.333971 seconds
+  Import took 0.338115 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.300031 seconds.
+  path: Assets/Loot/LootChest.prefab
+  artifactKey: Guid(5c63ac50b7fa243f892524fdd54d6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loot/LootChest.prefab using Guid(5c63ac50b7fa243f892524fdd54d6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88b4b8181834e123da72b3bd2f97045') in 0.009474 seconds
+  Import took 0.014475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.271896 seconds.
+  path: Assets/Loot/LootChest.prefab
+  artifactKey: Guid(5c63ac50b7fa243f892524fdd54d6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loot/LootChest.prefab using Guid(5c63ac50b7fa243f892524fdd54d6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711477cf4ce2ee74fffe716ba01484a3') in 0.009198 seconds
+  Import took 0.013624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.028624 seconds.
+  path: Assets/Loot/LootChest.prefab
+  artifactKey: Guid(5c63ac50b7fa243f892524fdd54d6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Loot/LootChest.prefab using Guid(5c63ac50b7fa243f892524fdd54d6f41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b66f8c4a5716b5fceca9a8b35b63f52') in 0.010336 seconds
+  Import took 0.015053 seconds .
+
