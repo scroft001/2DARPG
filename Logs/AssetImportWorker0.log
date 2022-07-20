@@ -623,3 +623,19 @@ System memory in use after: 180.3 MB.
 Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2810.
 Total: 3.943666 ms (FindLiveObjects: 0.455994 ms CreateObjectMapping: 0.176683 ms MarkObjects: 3.146846 ms  DeleteObjects: 0.163210 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 84708.685595 seconds.
+  path: Assets/Characters/Slime/Slime.prefab
+  artifactKey: Guid(368138e3792bb4c96b89aa3a858b925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Slime/Slime.prefab using Guid(368138e3792bb4c96b89aa3a858b925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574d2007f353e79482d766e48d717350') in 0.751097 seconds
+  Import took 0.840308 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.384893 seconds.
+  path: Assets/Characters/Slime/Slime.prefab
+  artifactKey: Guid(368138e3792bb4c96b89aa3a858b925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Slime/Slime.prefab using Guid(368138e3792bb4c96b89aa3a858b925f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4cefb4c26d351569fe4787947b477ac') in 0.032731 seconds
+  Import took 0.038612 seconds .
+

@@ -28,6 +28,8 @@ public class Enemy : MonoBehaviour
 
     public Flash flash;
 
+    public float lootAmount = 10;
+
     public float Health
     {
         set
@@ -60,6 +62,13 @@ public class Enemy : MonoBehaviour
     public void Defeated()
     {
         animator.SetTrigger("Defeated");
+
+        //drop loot
+    }
+
+    private void DropLoot()
+    {
+        //Instantiate check prefab where slime died
     }
 
     public void RemoveEnemy()
