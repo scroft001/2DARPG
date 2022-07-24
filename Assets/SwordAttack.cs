@@ -38,6 +38,7 @@ public class SwordAttack : MonoBehaviour
         if(collision.tag == "Enemy")
         {
             // Deal damage to enemy
+            print("enemy hit");
             Enemy enemy = collision.GetComponent<Enemy>();
             if(enemy != null)
             {
