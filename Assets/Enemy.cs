@@ -14,7 +14,7 @@ public class Enemy : MonoBehaviour
     private Vector3 offset = new Vector3(0f, -0.1f, 0);
     public SlimeAttack slimeAttack;
     private Vector3 startingPosition;
-    private float patrolDistance = 1.3f;
+    private float patrolDistance = 0.3f;
 
     private Vector3 point1;
     private Vector3 point2;
@@ -28,7 +28,7 @@ public class Enemy : MonoBehaviour
 
     public Flash flash;
 
-    public float lootAmount = 10;
+    public GameObject lootCoin;
 
     public float Health
     {
@@ -63,16 +63,19 @@ public class Enemy : MonoBehaviour
     {
         animator.SetTrigger("Defeated");
 
-        //drop loot
+        
     }
 
     private void DropLoot()
     {
-        //Instantiate check prefab where slime died
+        //Instantiate chest prefab where slime died
+        Instantiate(lootCoin, transform.position, transform.rotation);
     }
 
     public void RemoveEnemy()
     {
+        //drop loot
+        DropLoot();
         Destroy(gameObject);
     }
 
@@ -142,8 +145,8 @@ public class Enemy : MonoBehaviour
     {
         canMove = false;
         animator.SetTrigger("Damaged");
-        transform.position = transform.position;
     }
+
     
     private void Patrol()
     {

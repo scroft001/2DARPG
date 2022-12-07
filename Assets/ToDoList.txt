@@ -1,0 +1,13 @@
+Add knock back to enemy
+Add second enemy type
+Add main menu
+Add hub world
+Add shop
+Add upgrades
+Add don't destroy on load to game manager
+Add saving data
+Add ranged attacks to player
+Add enemy that has a ranged attack
+Level flow mechanism?
+Add music
+Add sound effects

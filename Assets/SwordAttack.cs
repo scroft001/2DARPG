@@ -25,7 +25,7 @@ public class SwordAttack : MonoBehaviour
     public void AttackLeft()
     {
         swordCollider.enabled = true;
-        transform.localPosition = new Vector2(rightAttackOffset.x * -1, transform.position.y);
+        transform.localPosition = new Vector2(rightAttackOffset.x * -1, rightAttackOffset.y);
     }
 
     public void StopAttack()
@@ -40,10 +40,16 @@ public class SwordAttack : MonoBehaviour
             // Deal damage to enemy
             print("enemy hit");
             Enemy enemy = collision.GetComponent<Enemy>();
+            Rigidbody2D enemyRb = collision.GetComponent<Rigidbody2D>();
             if(enemy != null)
             {
                 enemy.Health -= damage;
                 //pause enemy movement or push back
+                // enemyRb.isKinematic = false;
+                // Vector2 difference = enemyRb.transform.position - transform.position;
+                // difference = difference.normalized * .1f;
+                // enemyRb.AddForce(difference, ForceMode2D.Impulse);
+                // enemyRb.isKinematic = true;
                 enemy.Damaged();
             }
         }
